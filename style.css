@@ -1,6 +1,16 @@
 .logo{
 	position: relative;
-	margin: auto;
+	margin-left: auto;
+	margin-right: auto;
 	width:50%;
 	top:75px;
+}
+input{
+	position: relative;
+	margin-left: 29em;
+	margin-right: auto;
+	width:42%;
+	height: 25px;
+	top:80px;
+	
 }
