@@ -52,12 +52,17 @@ ul {
 li{
 	position: relative;
 	display: inline-block;
+	font-family: Arial, sans-serif;
+	font-size: 13px;
 	margin-right:10px;
+}
+.navbar li{
+	
+	
 	left: -20px;
 	float: right;
 	top:2em;
-	font-family: Arial, sans-serif;
-	font-size: 14px;
+	
 
 }
 a{
@@ -66,4 +71,32 @@ a{
 }
 a:hover{
 	text-decoration: underline;
+}
+
+.fbar{
+	background: #f2f2f2;
+	position: absolute;
+	bottom: 0;
+	height: 35px;
+	width: 100%;
+}
+.fbar a{
+	position: relative;
+	color: #404040;
+	text-align: center;
+	
+	top:8px;
+	margin-left: 15px;
+}
+.lfbar {
+	
+	
+	float: left;
+
+}
+
+.rfbar {
+	
+	float: right;
+	right: 15px;
 }
