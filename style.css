@@ -12,5 +12,58 @@ input{
 	width:42%;
 	height: 25px;
 	top:80px;
+
+}
+
+button{
 	
+	position: relative;
+	top:100px;
+	background:  #f4f4f4;
+	color: #444;
+	text-align: center;
+	border-color: rgba(0,0,0,0.1);
+	border:1px solid #dcdcdc;
+	border-radius: 2px;
+	height: 29px;
+	min-width: 54px;
+	font-size: 11px;
+	font-weight: bold;
+	display: inline-block;
+}
+.search{
+margin-left: 50em;
+}
+
+.lucky{
+margin-left: 10px;
+}
+
+button:hover{
+	border:1px solid #c6c6c4; 
+    background: #f8f8f8;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li{
+	position: relative;
+	display: inline-block;
+	margin-right:10px;
+	left: -20px;
+	float: right;
+	top:2em;
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+a:hover{
+	text-decoration: underline;
 }
