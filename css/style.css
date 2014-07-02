@@ -1,27 +1,29 @@
-.logo{
+.central_part{
 	position: relative;
 	margin-left: auto;
 	margin-right: auto;
-	width:50%;
-	top:75px;
-}
-input{
-	position: relative;
-	margin-left: 29em;
-	margin-right: auto;
-	width:42%;
-	height: 25px;
-	top:80px;
+	top:5em;
+	display: inline-block;
+	text-align: center;
+	left: 22em;
 
+}
+
+
+input{
+	
+	width:570px;
+	height: 25px;
+	
 }
 
 button{
 	
-	position: relative;
-	top:100px;
+	
+	margin-top: 20px;
 	background:  #f4f4f4;
 	color: #444;
-	text-align: center;
+	
 	border-color: rgba(0,0,0,0.1);
 	border:1px solid #dcdcdc;
 	border-radius: 2px;
@@ -29,11 +31,9 @@ button{
 	min-width: 54px;
 	font-size: 11px;
 	font-weight: bold;
-	display: inline-block;
+
 }
-.search{
-margin-left: 50em;
-}
+
 
 .lucky{
 margin-left: 10px;
